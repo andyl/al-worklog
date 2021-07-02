@@ -1,0 +1,51 @@
+WORKLOG                                                           *wlog* *worklog* 
+==============================================================================
+CONTENTS                                                          *wlog-outline*
+
+  Introduction    |wlog-intro|
+  Features        |wlog-features|
+  Commands        |wlog-commands|
+  Support Tools   |wlog-support|
+
+==============================================================================
+INTRODUCTION                                                        *wlog-intro*
+
+Worklog - for writing an activity log and technical notes.
+
+==============================================================================
+FEATURES                                                         *wlog-features*
+
+- Organized by date and time stamp headers
+- high-level TODO tracking
+
+==============================================================================
+COMMANDS                                                         *wlog-commands*
+
+<C-h>d - create a new 'day' heading   (relies on `w_timestamp` script)
+<C-h>t - create a new 'time' heading  (relies on `w_date` script)
+<C-t>s - create a time stamp          (relies on `w_time` script)
+
+<space> toggle the date/time heading open and closed (za also works...)
+
+<C-t>t insert a TODO label
+<C-t>d insert a DONE label 
+<C-t>x remove the TODO/DONE label
+
+==============================================================================
+SUPPORT TOOLS                                                     *wlog-support*
+
+Worklog relies on ruby script to insert timestamps and dates:
+- w_timestamp
+- w_date
+- w_time
+
+Launching (TBD):
+- launch with only the most recent time heading open
+- launching in tmux
+- alias (vw)
+
+Weekly Backup:
+- backup script (TBD)
+- alias (TBD)
+
+" vim: ft=help tw=78 ts=2 
