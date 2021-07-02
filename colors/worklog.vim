@@ -1,5 +1,7 @@
 " COLOR SCHEME -----
 
+lua print("WLCOLOR")
+
 let g:colors_name="wlog"
 
 highlight wTitle     ctermfg=yellow     ctermbg=red

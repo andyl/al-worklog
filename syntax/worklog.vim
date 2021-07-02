@@ -1,3 +1,5 @@
+lua print("SYNTAXX")
+
 " WLOG SYNTAX -----
 syntax match wRoadmap   /^# ROADMAP.*/
 syntax match wTitle     /^Title: Week beginning [012][0-9]-[01][0-9]-[0-3][0-9]$/
